@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <style>
+        body{
+            background-image: url(./imgs/Download\ wallpaper\ 1920x1080\ city\,\ night\,\ moon\,\ buildings\,\ water\,\ dark\ full\ hd\,\ hdtv\,\ fhd\,\ 1080p\ hd\ background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-top: 10%;
+
+        }
+
+        .main-box{
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            border: 2px solid black;
+            width: 40%;
+            margin: auto;
+            background-color: cornsilk;
+            border-radius: 25px;
+            opacity: 0.5;
+
+        }
+        .mother{
+            display: flex;
+            flex-direction: row;
+            
+        }
+
+        span{
+            border-bottom: 2px slateblue;
+        }
+
+        .child1,
+        .child2{
+            
+            margin: 10px;
+        }
+
+        .flex4{
+            margin-bottom: 15px;
+            text-align: center;
+
+        }
+
+
+
+    </style>
+
+    <body>
+        <div class="main-box">
+            <h1>
+                <span>Re</span>gistration
+            </h1>
+
+            <form action="">
+                <div class="mother">
+                    <div class="child1">
+                        <label for="full-name">Full Name</label>
+                        <p></p><input type="text" name="full_name" id="full_name " placeholder="Enter your name">
+                        <p></p>
+                        <label for="Email">Email</label>
+                        <p></p><input type="text" name="Email" id="email1" placeholder="Enter your email">
+                        <p></p>
+                        <label for="Password">Password</label>
+                        <p></p><input type="text" name="Password" id="passcode" placeholder="Enter your password">
+                    </div>
+    
+                    <div class="child2">
+                        <label for="username">Username</label>
+                        <p></p><input type="text" name="user.name" id="user-name " placeholder="Enter your username">
+                        <p></p>
+                        <label for="Phone Number">Phone Number</label>
+                        <p></p><input type="text" name="cp" id="phone-num" placeholder="Enter your mobile">
+                        <p></p>
+                        <label for="Confirm Password"> Confirm Password</label>
+                        <p></p><input type="text" name="conPassword" id="conpasscode" placeholder="Confirm your password">
+                    </div>
+                </div>   
+                
+                <div class="flex3">
+                    <p>Gender</p>
+                    <input type="radio" name="sex" id="male" value="male">
+                    <label for="male">male</label>
+                    <input type="radio" name="sex" id="female" value="female">
+                    <label for="female">female</label>
+                    <input type="radio" name="sex" id="prf" value="prefer not to say">
+                    <label for="female">prefer not to say</label>
+                </div>
+
+                <div class="flex4">
+                    <p></p> <label for="submit"></label>
+                    <input type="submit" name="register" id="register" value="Register">    
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
